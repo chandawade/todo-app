@@ -1,0 +1,4 @@
+org/alfresco/bm/data/ProcessDataDAO.class
+org/alfresco/bm/process/ExecuteProcess.class
+org/alfresco/bm/data/ProcessData.class
+org/alfresco/bm/process/ScheduleProcesses.class
