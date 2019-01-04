@@ -4,6 +4,7 @@ Build-Jdk: 10.0.2
 Implementation-Title: toDoApp
 Implementation-Version: 1.0-SNAPSHOT
 Implementation-Vendor-Id: com.ubiqcoding.core
-Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/toDoApp
 Created-By: Maven Integration for Eclipse
 
