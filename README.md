@@ -3,7 +3,8 @@
 **Checkout Source**
 
 git clone https://github.com/chandawade/todo-app.git
-git checkout <target_branch>
+
+git checkout <-target_branch->
 
 #Build Runnable Artifact Locally
 mvn clean package -Dspring.profiles.active=dev

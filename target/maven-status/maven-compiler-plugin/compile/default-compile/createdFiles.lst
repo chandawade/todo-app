@@ -1,4 +1,5 @@
+com/ubiqcoding/core/controller/LoginController.class
+com/ubiqcoding/core/controller/AddToDoController.class
 com/ubiqcoding/core/todo/ToDoApplication.class
-com/ubiqcoding/core/todo/ToDoController.class
 com/ubiqcoding/core/beans/ToDo.class
 com/ubiqcoding/core/beans/UserRegistration.class
