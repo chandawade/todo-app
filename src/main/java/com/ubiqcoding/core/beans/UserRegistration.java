@@ -1,3 +1,4 @@
+/*
 package com.ubiqcoding.core.beans;
 
 public class UserRegistration {
@@ -25,3 +26,5 @@ public class UserRegistration {
 	} 
 
 }
+
+*/
