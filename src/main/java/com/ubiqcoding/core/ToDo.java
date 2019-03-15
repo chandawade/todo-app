@@ -1,49 +1,41 @@
-package com.ubiqcoding.core.beans;
+package com.ubiqcoding.core;
 
 import java.util.Date;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.format.annotation.DateTimeFormat.ISO;
 
 public class ToDo {
 	
 	//what is my to do app going to have? 
-	long ID;
-	String title;
-	String description;
-	Date dateCreated;
-	Date dueDate;
+	private static int ID = 101;
 	
-	//constructor
+	@NotNull
+	private String title;
+	
+	@Size(max=160)
+	private String description;
+	
+	@DateTimeFormat(iso=ISO.DATE)
+	private Date dateCreated;
+	
+	private Date dueDate;
+	
 	public ToDo() {
-		System.out.println("New To Do Created");
+		System.out.println("New To Do created");
 	}
 	
-	public ToDo(String title) {
-		System.out.println("New To Do: " + title);
-	}
-	
-	//methods for to do
-	void addToDo() {
-		
-	}
-	
-	void deleteToDo() {
-		
-	}
-	
-	void addDescription() {
-		
-	}
-	
-	void completeToDo() {
-		
-	}
-	
-	/*
 	public long getID() {
 		return ID;
 	}
 	public void setID(long iD) {
-		ID = iD;
+		this.ID = ID;
 	}
+	
+	@NotNull 
 	public String getTitle() {
 		return title;
 	}
@@ -68,6 +60,5 @@ public class ToDo {
 	public void setDueDate(Date dueDate) {
 		this.dueDate = dueDate;
 	}
-	*/
 
 }

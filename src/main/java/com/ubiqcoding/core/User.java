@@ -1,3 +1,4 @@
+package com.ubiqcoding.core;
 /*
 package com.ubiqcoding.core.beans;
 
